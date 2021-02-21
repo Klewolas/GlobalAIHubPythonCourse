@@ -16,6 +16,6 @@ matrix = [[0 for i in range(3)] for j in range(3)] #matris oluşturuldu.
 
 for i in range(3): #oluşturulan matrisin içine rastgele asal sayılar atandı.
     for j in range(3):
-        matrix[i][j] = primeNumbers[random.randint(0,len(primeNumbers))]
+        matrix[i][j] = primeNumbers[random.randint(0,(len(primeNumbers))-1)]
         
 print(matrix)
